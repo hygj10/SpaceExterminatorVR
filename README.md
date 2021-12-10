@@ -23,15 +23,18 @@ Spaceship - Home Scene
 * A 3D menu system that links to the other three scenes  
 * Tutorial diagrams attached to the panels on the spaceship  
 * Modeled with Gravity Sketch  
+
 Pandora - The Lab  
 * An alien planet scene with onboarding system and experiment mode  
 * The experiment mode allows spawning different types of enemies with buttons and revisit onboarding tutorials of weapons.  
 * Modeled with Tilt Brush  
+
 Helios - Arcade Mode  
 * Predefined waves of enemies  
 * Scoring system based on the following aspects:  
 * Number of hits taken; Remaining time  
 * Modeled with Tilt Brush  
+
 LV-426 - Survival Mode  
 * Auto-generated infinite waves of enemies  
 * Scoring system based on survival time and enemies killed  
@@ -41,6 +44,7 @@ Player Body
 * XR Rig with animated hands  
 * A player statistics screen attached to the left hand. Is visible in the lab and the survival mode.  
 * Weapons are attached to the body on a belt. They can be grabbed by controllers and return to their original location on release.  
+
 Weapon System  
 * Handgun - Shoots normal bullets with trails  
 ** Bullets bounce off enemies and can hit other enemies  
@@ -60,6 +64,7 @@ Weapon System
 * Remote Shooting  
 ** An experimental feature that allows the player to use the joystick to move and/or rotate weapons forward and shoot remotely  
 ** Particularly useful against shielded enemies  
+
 Enemy System  
 * Drones  
 ** Long range laser attacks; Hovers in mid-air; Random movement across the sky; Keeps distance from the player  
@@ -67,6 +72,7 @@ Enemy System
 ** Close range attacks (stabs with claws); Crawls towards the player; Quick and agile movement; Small in size but large in quantity  
 * Beasts  
 ** Close range explosion attacks; Walks towards the player; Slow movement; Equipped with an unbreakable energy shield on its frontside  
+
 UI system  
 * 3D UI for scene selection  
 * Planet button prefab that enlarges and shows scene name when hovered, and updates the play button text when pressed.  
@@ -78,6 +84,7 @@ UI system
 ** Toggled by button X, which also pauses and resumes the game.  
 * Player stats attached to the left hand  
 ** Displays health and time in the survival mode of the game  
+
 Audio Feedback  
 * Weapons  
 ** Shooting/Flames; Hitting targets; Grenade explosion  
@@ -87,20 +94,24 @@ Audio Feedback
 * Attack sounds: Crawler stabs, Beast explosions, Drone lasers  
 ** Destruction/dying sounds  
 ** Beast shield deflection sounds  
+
 UI  
 * Hovering above different planet options  
+
 Haptic Feedback  
 * Weapons  
 ** Grabbing weapons; Shooting weapons; Blocking  
 * Enemy  
 ** Getting hit by enemies  
 ** Getting hit and blocking have different lengths of haptic feedback, and when hit by enemies both hands receive feedback  
+
 Onboarding  
 * Teaching section that teaches each weapon and let the player learn their pros and cons through killing real enemies  
 * For each weapon there is one floating description screen  
 * A red line that links the weapon to the player’s hand  
 * Two waves of enemies that the player needs to eliminate before proceeding to next weapon  
 * At the end, there is an experiment section that lets the player revisit tutorials texts and spawn different types of enemies selectively, in order to test out weapons and features at the player’s own pace.  
+
 ## Technical contribution  
 We used XR Interactable for any interaction that involves hands, such as grabbing, hand animations, remote shooting, and throwing shields.  
 The weapons are divided into two parts: the barrel and the handle, in order to correctly determine the position to grab the gun and the point to shoot the projectile from.  
