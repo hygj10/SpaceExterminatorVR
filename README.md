@@ -10,13 +10,13 @@ TroubleShooting:
 ## Project description  
 Traveling from planet to planet, you are a space exterminator who eliminates alien pests that bother dwellers of all space civilizations. Take your next task, grab your weapons and shield, and kill the pests! It is your duty to protect the universe!  
 ## Instructions  
-The grip buttons on both hands grab weapons and the shield.   
-The trigger button interacts with the UI elements, and fires the weapon.  
-The shield is behind the player and can be grabbed with a hand behind the back. It can be thrown and catched like a boomerang to kill enemies.   
-The menu button is the X button on the left hand and pauses the game  
-In Survival Mode, the left hand has a watch showing your current score and health  
-The joysticks can be used to push and rotate weapons to shoot enemies from afar  
-There are in-app instruction diagrams and onboarding.  
+* The grip buttons on both hands grab weapons and the shield.   
+* The trigger button interacts with the UI elements, and fires the weapon.  
+* The shield is behind the player and can be grabbed with a hand behind the back. It can be thrown and catched like a boomerang to kill enemies.   
+* The menu button is the X button on the left hand and pauses the game  
+* In Survival Mode, the left hand has a watch showing your current score and health  
+* The joysticks can be used to push and rotate weapons to shoot enemies from afar  
+* There are in-app instruction diagrams and onboarding.  
 ## Features  
 Scenes  
 Spaceship - Home Scene  
