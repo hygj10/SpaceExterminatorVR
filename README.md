@@ -1,5 +1,5 @@
 # Space Exterminator (copy of original private repo)
-## Hoyuong Jun, Fanruo Gu, Adam Yuzhen Zhang
+## Hoyoung Jun, Fanruo Gu, Adam Yuzhen Zhang
 ## Trailer -> https://www.youtube.com/watch?v=G0gBD-wcK9Q
 ## Website -> https://sites.google.com/cornell.edu/space-exterminator
 
