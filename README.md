@@ -113,18 +113,17 @@ Onboarding
 * Two waves of enemies that the player needs to eliminate before proceeding to next weapon  
 * At the end, there is an experiment section that lets the player revisit tutorials texts and spawn different types of enemies selectively, in order to test out weapons and features at the player’s own pace.  
 
-## Technical contribution  
-We used XR Interactable for any interaction that involves hands, such as grabbing, hand animations, remote shooting, and throwing shields.  
-The weapons are divided into two parts: the barrel and the handle, in order to correctly determine the position to grab the gun and the point to shoot the projectile from.  
-The handgun and grenade launcher use rigidbody projectiles, while the flamethrower uses a particle system (from the asset store).  
-Grenade launcher colors are changed by changing the mesh renderer according to time  
-Drones move randomly by adding random (x, y, z) values between -1 to 1 to their original position  
-Lasers are lerped to the player’s position with a random offset of x, y  
-Crawlers and Beasts lerp towards while animating the player and attack (animates and causes damage) when within the assigned range. When beasts explodes, they can hurt nearby enemies as well (particle collision)  
-The shield to the beast was added with a half sphere, and rendered visible through collision with a projectile (using tags)  
-Haptic and audio feedback and Animators are located next to appropriate events within the script  
-Models such as the handgun, grenade launcher, shield, belt, and some scenes were drawn within another VR app (Tiltbrush, Gravity Sketch)  
-We have several branches that each of us worked on separately to avoid collision, and in some cases worked together from a single laptop.  
+## Technical  
+* We used XR Interactable for any interaction that involves hands, such as grabbing, hand animations, remote shooting, and throwing shields.  
+* The weapons are divided into two parts: the barrel and the handle, in order to correctly determine the position to grab the gun and the point to shoot the projectile from. 
+* The handgun and grenade launcher use rigidbody projectiles, while the flamethrower uses a particle system (from the asset store).  
+* Grenade launcher colors are changed by changing the mesh renderer according to time  
+* Drones move randomly by adding random (x, y, z) values between -1 to 1 to their original position  
+* Lasers are lerped to the player’s position with a random offset of x, y  
+* Crawlers and Beasts lerp towards while animating the player and attack (animates and causes damage) when within the assigned range. When beasts explodes, they can hurt nearby enemies as well (particle collision)  
+* The shield to the beast was added with a half sphere, and rendered visible through collision with a projectile (using tags)  
+* Haptic and audio feedback and Animators are located next to appropriate events within the script  
+* Models such as the handgun, grenade launcher, shield, belt, and some scenes were drawn within another VR app (Tiltbrush, Gravity Sketch)    
 
 
 
