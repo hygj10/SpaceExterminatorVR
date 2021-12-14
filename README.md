@@ -41,6 +41,7 @@ LV-426 - Survival Mode
 * Scoring system based on survival time and enemies killed  
 * Modeled with Tilt Brush  
      Each scene has different background music corresponding to their respective intensity  
+     
 Player Body  
 * XR Rig with animated hands  
 * A player statistics screen attached to the left hand. Is visible in the lab and the survival mode.  
